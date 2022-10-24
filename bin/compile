@@ -1,5 +1,9 @@
-#!/usr/bin/env bash
+	#!/usr/bin/env bash
 
-# thanks https://github.com/ryandotsmith/null-buildpack
-
-echo "-----> Nothing to compile"
+	echo "-----> Installing Java"
+	apt update
+apt install openjdk-17-jdk -y
+	echo "-----> Done preparing environment for slug"
+	
+	
+	
