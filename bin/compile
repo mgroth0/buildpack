@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# thanks https://github.com/ryandotsmith/null-buildpack
+
+echo "-----> Nothing to compile"
